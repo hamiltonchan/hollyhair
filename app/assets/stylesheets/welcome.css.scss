@@ -18,9 +18,8 @@ html, body {
 }
 
 @media only screen 
-    and (max-device-width: 640px), 
-    only screen and (max-device-width: 667px), 
-    only screen and (max-width: 480px)
+  and (min-device-width : 414px) 
+  and (max-device-width : 736px)
 {
   h1 {
     font-size: 40px;
